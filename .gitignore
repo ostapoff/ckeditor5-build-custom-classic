@@ -1,7 +1,6 @@
 node_modules/
-build/
 lerna-debug.log
-.idea
+package-lock.json
 .vscode
 
 # Ignore `yarn.lock` - this file might contain info from external repositories.
