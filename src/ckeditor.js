@@ -32,10 +32,10 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 
-export default class ClassicEditor extends ClassicEditorBase {}
+export default class ClassicCustomEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
-ClassicEditor.builtinPlugins = [
+ClassicCustomEditor.builtinPlugins = [
 	Essentials,
 	UploadAdapter,
 	Autoformat,
@@ -64,7 +64,7 @@ ClassicEditor.builtinPlugins = [
 ];
 
 // Editor configuration.
-ClassicEditor.defaultConfig = {
+ClassicCustomEditor.defaultConfig = {
 	toolbar: {
 		items: [
 			'heading',
