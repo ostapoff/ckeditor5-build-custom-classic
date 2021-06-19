@@ -1,5 +1,9 @@
-CKEditor 5 classic editor build
+CKEditor 5 classic editor custome build
 ========================================
+
+new features:
+* customized Font style selector
+* RemoveFormat feature
 
 [![npm version](https://badge.fury.io/js/%40ckeditor%2Fckeditor5-build-classic.svg)](https://www.npmjs.com/package/@ckeditor/ckeditor5-build-classic)
 [![Dependency Status](https://david-dm.org/ckeditor/ckeditor5-build-classic/status.svg)](https://david-dm.org/ckeditor/ckeditor5-build-classic)
