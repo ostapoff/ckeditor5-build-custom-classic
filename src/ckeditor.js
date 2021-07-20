@@ -77,7 +77,6 @@ ClassicCustomEditor.defaultConfig = {
 			'bold',
 			'italic',
 			'link',
-			'cmslink',
 			'bulletedList',
 			'numberedList',
 			'|',
